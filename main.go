@@ -56,13 +56,13 @@ func scanForAssemblyChanges() {
 }
 
 func main() {
-	ticker := time.NewTicker(2000 * time.Millisecond)
+	ticker := time.NewTicker(2 * time.Second)
 	go func() {
 		for range ticker.C {
 			scanForAssemblyChanges()
 		}
 	}()
-	time.Sleep(6000 * time.Second)
+	time.Sleep(240 * time.Hour)
 }
 
 
