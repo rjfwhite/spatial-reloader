@@ -15,4 +15,6 @@ cd your-spatial-project
 spatial-reloader
 ```
 
+## Potential Extensions
 
+* Invoke `spatial local` too, restarting it when any snapshot or configuration changes
