@@ -7,7 +7,7 @@ Especially for simple workers, this can drastically reduce iteration times.
 https://github.com/Jeffail/gabs
 
 ## Usage
-This assumes you have you go `bin` folder on your `PATH`. Runs from the base of your SpatialOS project, and runs indefinitely.
+This assumes you have your golang `bin` folder on your `PATH`. Runs from the base of your SpatialOS project, and runs indefinitely.
 
 ```bash
 go install github.com/rjfwhite/spatial-reloader
