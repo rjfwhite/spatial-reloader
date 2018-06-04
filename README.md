@@ -10,6 +10,7 @@ https://github.com/Jeffail/gabs
 This assumes you have your golang `bin` folder on your `PATH`. Runs from the base of your SpatialOS project, and runs indefinitely.
 
 ```bash
+go get github.com/rjfwhite/spatial-reloader
 go install github.com/rjfwhite/spatial-reloader
 cd your-spatial-project
 spatial-reloader
